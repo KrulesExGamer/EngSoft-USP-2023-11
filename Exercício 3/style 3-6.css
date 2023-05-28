@@ -1,0 +1,146 @@
+body{
+	background-color:#222;
+	padding-left:20%;
+	padding-right: 20%;
+	font-family: Lexend Deca;
+}
+
+div > div{
+	background-color:#fff;
+	margin:10px 20% 20px;
+	padding:10px 5% 10px;
+	border-radius: 20px;
+	width:55%;
+}
+
+div < div{
+	width: 60%;
+}
+
+.card-text{
+	margin: 5px 0px 5px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+#img-profile{
+	border: 10px #000;
+	border-style:solid;
+	width:60%;
+	margin:5px 10% 5px;
+}
+
+
+.red-text{
+	color:red;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+
+/* FONTAWESOME */
+
+.fa{
+	font-size: 50px;
+}
+
+.fa-facebook::before{
+	font: var(--fa-font-brands);
+	content:'\f09a';
+}
+
+.fa-linkedin::before{
+	font: var(--fa-font-brands);
+	content:'\f08c';
+}
+
+.fa-twitter::before{
+	font: var(--fa-font-brands);
+	content:'\f099';
+}
+
+
+
+/* LISTS  */
+
+.flexbox{
+	display:flex;
+	margin:0px;
+	padding: 0px;
+	width:100%;
+}
+ul.social{
+	padding:0px 65px 0px;
+	list-style-type: none;
+	width:100%;
+	text-align: center;
+}
+
+li.social{
+	float:left;
+	margin:0px 15px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#social-medias{
+	background-color:#fff;
+	margin:10px 20% 20px;
+	padding:10px 0px;
+	border-radius: 20px;
+	width:65%;
+}
+
+.other-interests-flex{
+	width:100%;
+	height:100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+li.interests{
+	float:left;
+	margin:5px 30px;
+	text-align: center;
+	font-size: 16px;
+}
+
+ul.interests{
+	margin: 20px 50px 0px;
+	padding:0px 45px;
+	list-style-type: none;
+	width:100%;
+	text-align: center;
+}
+
+.other-interests{
+	width:65%;
+	padding-left: 5px;
+	padding-right:5px;
+}
+
+/*  MOVIES   */
+
+.poster{
+	height: 150px;
+	width:100px;
+}
+
+td{
+	text-align: justify;
+}
+
+.td_text{
+	padding-left: 15px;
+}
