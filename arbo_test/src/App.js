@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-            <input type="checkbox" id="check" checked/>
+            <input type="checkbox" id="check" defaultChecked/>
             <label for="check" class="checkbtn">
             <FontAwesomeIcon icon={faBars} />
             </label>
